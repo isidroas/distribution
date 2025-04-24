@@ -12,3 +12,8 @@ jobs:
         working-directory: tests
         env:
           distribution: ../distribution.py
+      - name: run perl
+        run: ./runTests.sh
+        working-directory: tests
+        env:
+          distribution: ../distribution
