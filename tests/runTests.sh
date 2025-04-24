@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/bash
 
 # make sure env is setup proper
 if [ "xxx$distribution" == "xxx" ] ; then
